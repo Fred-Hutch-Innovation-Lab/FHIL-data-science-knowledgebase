@@ -7,6 +7,15 @@ url: https://Fred-Hutch-Innovation-Lab.github.io/SOPs
 aux_links:
   Source repo: https://github.com/Fred-Hutch-Innovation-Lab/SOPs
 
+# Default settings for all pages in doc folder
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default" 
+
+
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
