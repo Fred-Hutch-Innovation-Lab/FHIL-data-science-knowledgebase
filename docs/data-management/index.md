@@ -1,10 +1,11 @@
 ---
-title: Data management
-last_modified_date: 2025-04-04
-has_children: true
+title: Data Management
+children: true
 ---
 
-# Data management
+# Data Management
+
+This section covers various aspects of data management in research workflows.
 
 ## Types of data 
 
@@ -46,8 +47,8 @@ e.g.
 *	Parse = `PA00#`
 *	Scale = `SC00#`
 *	Fluent = `FB00#`
-*	10X 3’ = `3P00#`
-*	10X 5’ = `5P00#`
+*	10X 3' = `3P00#`
+*	10X 5' = `5P00#`
 *	Benchmark Platforms = `BM00#`
 
 
