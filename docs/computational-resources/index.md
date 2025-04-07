@@ -1,5 +1,6 @@
 ---
 title: Computational resources
+children: true
 ---
 
 # Computational resources
