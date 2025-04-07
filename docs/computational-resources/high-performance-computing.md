@@ -18,5 +18,7 @@ Users can use the [Sci-comp self-service portal](https://scicomp-self-service.fr
 # Further reading
 
 [Fred Hutch cluster 101](https://hutchdatascience.org/FH_Cluster_101/)
+
 [Fred Hutch scientific computing wiki](https://sciwiki.fredhutch.org/)
+
 [Rstudio server launcher](https://rstudio-launcher.fredhutch.org/)
