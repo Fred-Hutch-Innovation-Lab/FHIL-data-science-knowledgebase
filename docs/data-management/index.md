@@ -3,6 +3,8 @@ title: Data Management
 children: true
 ---
 
+{:toc}
+
 # Data Management
 
 This section covers various aspects of data management in research workflows.
