@@ -6,13 +6,6 @@
 * [How to write documents with markdown][Markdown basics] 
 * [Browse the Just the Docs documentation][Just the Docs] to learn more about how to use this theme.
 
-## Replace the content of the template pages
-
-Update the following files to your own content:
-
-- `index.md` (your new home page)
-- `README.md` (information for those who access your site repo on GitHub)
-
 ## Changing the version of the theme and/or Jekyll
 
 Simply edit the relevant line(s) in the `Gemfile`.
