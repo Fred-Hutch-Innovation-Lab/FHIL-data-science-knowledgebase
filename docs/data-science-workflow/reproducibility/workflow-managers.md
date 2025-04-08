@@ -15,5 +15,5 @@ Nf-core is an open-source community repository of bioinformatic workflows writte
 
 # Resources
 
-[Nextflow documentation](https://www.nextflow.io/docs/latest/index.html)
-[nf-core](https://nf-co.re/)
+- [Nextflow documentation](https://www.nextflow.io/docs/latest/index.html)
+- [nf-core](https://nf-co.re/)

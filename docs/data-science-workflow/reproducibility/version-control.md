@@ -14,5 +14,5 @@ Version control is essential for tracking changes, collaborating with others, an
 
 ## Resources
 
-[Git branching workflows](https://nvie.com/posts/a-successful-git-branching-model/)
-[Git with RStudio](https://happygitwithr.com/usage-intro)
+- [Git branching workflows](https://nvie.com/posts/a-successful-git-branching-model/)
+- [Git with RStudio](https://happygitwithr.com/usage-intro)
