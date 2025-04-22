@@ -1,8 +1,9 @@
 ---
-title: FHIL SOPs
+title: Home
 layout: home
 nav_order: 1
 last_modified_date: 2024-04-07
+permalink: /
 ---
 
 # FHIL Standard Operating Procedures

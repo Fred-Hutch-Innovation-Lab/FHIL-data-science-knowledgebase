@@ -5,7 +5,8 @@ children: true
 
 # Data Management
 
-This section covers various aspects of data management in research workflows.
+1. TOC
+{:toc}
 
 ## Types of data 
 
