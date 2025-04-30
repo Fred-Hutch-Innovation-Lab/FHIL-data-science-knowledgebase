@@ -1,24 +1,37 @@
 ---
-title: Reproducibility
-children: true
+title: Open data science
+children: false
 last_modified_date: 2024-04-30
 ---
 
-# Reproducibility
+# Open data science
 
-This section covers various aspects of ensuring reproducibility in data science workflows.
+1. TOC
+{:toc}
 
 ## Openness
 
 **Open** science implies it can be seen by others. This usually means publishing code and data online. Github is used for code management, while Zenodo is useful for general digital storage.Gene Expression Omnibus or Sequence Read Archive are more domain specific resources for storing genomic/transcriptomic data for publications. If you intend to publish an analysis, you will likely have to make your data public through one of these resources.
-
-- [Git with RStudio](https://happygitwithr.com/usage-intro)
 
 ## Accessibility
 
 **Accessibility** deals with how understandable your code and workflows are. Well defined project structures, lab notebooks, ample READMEs, and modularized & documented code will make your work more accessible. 
 
 See the [github template repo](https://github.com/Fred-Hutch-Innovation-Lab/analysis_project_template) for the preferred project structure. The structure is inspired by the [gin-tonic](https://gin-tonic.netlify.app/standard/) project and the file naming conventions of [The Turing Way](https://book.the-turing-way.org/reproducible-research/rdm/rdm-storage#rr-rdm-storage-organisation).
+
+### Version Control
+
+Version control is essential for tracking changes, collaborating with others, and maintaining reproducible workflows. You should develop a habit of regularily commiting updates to analyses. All scripts used to produce an analysis should be version tracked and ideally cloud-backed in GitHub or something similar. This will allow you to revert to:
+
+* Revert to previous versions of an analysis
+* Record failed analyses
+* Test different analyses in parallel with branching
+* Publish code with papers
+
+- [Git branching workflows](https://nvie.com/posts/a-successful-git-branching-model/)
+- [Git with RStudio](https://happygitwithr.com/usage-intro)
+
+### Dry lab notebooks
 
 ## Reproducibility
 
@@ -42,8 +55,6 @@ Containers allow you to package an application with all of its dependencies into
 #### Renv (R)
 
 Renv operates within an R console. [renv Documentation](https://rstudio.github.io/renv/)
-
-### Python
 
 ```{r}
 ## Install Renv if needed
@@ -71,7 +82,3 @@ uv init
 ## install a dependency
 uv add <>
 ```
-
-
-
-

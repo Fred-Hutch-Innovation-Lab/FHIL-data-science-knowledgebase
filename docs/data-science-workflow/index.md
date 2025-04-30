@@ -22,8 +22,8 @@ The data science workflow at FHIL consists of the following steps. I relate more
     management](docs/data-management/index.md) for more details.
 4. Analyze
     - Analyze the processed data to discover insights. Not every dataset we handle will require analysis. See [Bioinformatic workflows](docs/bioinformatic-workflows/index.md) for specific types of analyses. 
+5. Publish
+    - If analyses are to be published on, the raw data, processing workflows, and analysis code need to be made accessible. 
 
-# Data analysis workflow
 
-While processing follows a more formulaic transformation of data from one state to another, analysis is a lot more fluid and poorly defined. The types of analyses will depend on the project goals. There are general principles that apply to all analyses: namely that they are **accessible**, **reproducible**, and **open**. 
-
+While specifics of implementation will vary, there are general principles that apply to all data science workflows: namely that they are **accessible**, **reproducible**, and **open**. See other pages in this topic for more dicussion on best practices in data science. 
