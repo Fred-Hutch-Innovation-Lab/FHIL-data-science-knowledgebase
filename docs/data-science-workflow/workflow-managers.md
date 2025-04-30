@@ -1,6 +1,6 @@
 ---
 title: Workflow Managers
-parent: Reproducibility
+parent: Data science workflow
 ---
 
 # Workflow Managers
