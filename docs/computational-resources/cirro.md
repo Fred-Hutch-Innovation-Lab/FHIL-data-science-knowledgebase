@@ -1,5 +1,9 @@
-# A Guide to Transferring Instrument Data to Cirro
-*For Use by Fred Hutch Innovation Lab (FHIL) Staff*
+---
+title: Cirro
+parent: Computational resources
+---
+
+# Transferring Instrument Data to Cirro
 
 ## Method 1: GUI based transfers
 
