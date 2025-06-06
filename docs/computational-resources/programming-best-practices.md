@@ -2,7 +2,7 @@
 title: Best practices in programming
 children: false
 parent: Computational-resources
-last_modified_date: 2024-04-30
+last_modified_date: 2024-06-06
 ---
 
 # Best practices in programming

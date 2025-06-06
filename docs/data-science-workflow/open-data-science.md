@@ -2,7 +2,7 @@
 title: Open data science
 children: false
 parent: Data science workflow
-last_modified_date: 2024-04-30
+last_modified_date: 2024-06-06
 ---
 
 # Open data science
@@ -34,9 +34,16 @@ Version control is essential for tracking changes, collaborating with others, an
 
 ### Dry lab notebooks
 
+### Data/research compendia
+
+
 ## Reproducibility
 
 **Reproducibility** determines how reliable your results are. If it can't be reproduced, it isn't real. Container systems like Docker and Apptainer help manage system level consistency such as system libraries, operating systems, and language versions. Programming-language-specific dependency managers like Renv (R) and UV or poetry (Python) record versions. Random seed control ensure non-deterministic processes will output the same results when reran. 
+
+Further reading: 
+
+- https://ubc-dsci.github.io/reproducible-and-trustworthy-workflows-for-data-science/
 
 ### Containerization
 
@@ -45,11 +52,12 @@ Containers allow you to package an application with all of its dependencies into
 - [Docker Documentation](https://docs.docker.com/)
 - [Dockerfile Best Practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 - [Docker Security Best Practices](https://docs.docker.com/engine/security/)
-- [Apptainer Documentation](https://apptainer.org/docs/)
 
 #### Apptainer
 
+Apptainer (formerly Singularity) is a docker-like solution for shared computing environments (such as high-performance computing clusters). When working with Rhino/Gizmo/Slurm, you will need to use Apptainer instead of docker to skirt permissions issues. See the [wiki](https://sciwiki.fredhutch.org/compdemos/Apptainer/) for more info.
 
+- [Apptainer Documentation](https://apptainer.org/docs/)
 
 ### Dependency management
 

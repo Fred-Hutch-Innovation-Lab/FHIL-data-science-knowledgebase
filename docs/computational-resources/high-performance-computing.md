@@ -1,6 +1,7 @@
 ---
 title: High performance computing
 parent: Computational resources
+last_modified_date: 2024-06-06
 ---
 
 # High performance computing 

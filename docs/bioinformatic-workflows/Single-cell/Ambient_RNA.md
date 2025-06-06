@@ -15,6 +15,7 @@ Relevant tools
 
 * `SoupX`
 * `DropletUtils::removeAmbience()`
+* `CellBender`
 
 ### SoupX
 
