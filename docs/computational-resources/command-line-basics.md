@@ -24,20 +24,19 @@ The command line interface (also known as terminal, shell, or CLI) is a text-bas
 
 ### Running Programs
 - `./program_name` - Runs an executable in the current directory
-- `python script.py` - Runs a Python script
-- `Rscript script.R` - Runs an R script
+- `python script.py` - Runs a Python script (this assumes you have python installed on the machine)
 
 ## Tips for Beginners
 
 1. **Use Tab Completion**: Press the Tab key to auto-complete file and directory names
 2. **Check Your Current Directory**: Always know where you are using `pwd` before running commands
-3. **Be Careful with `rm`**: Deleted files cannot be recovered from the trash
+3. **Be Careful with `rm`**: The shell will not ask twice. Deleted files cannot be recovered from the trash
 4. **Use `ls` Often**: Check what files are in your directory before making changes
 
 ## Common Issues and Solutions
 
 - **"Command not found"**: The program you're trying to run isn't in your PATH or isn't installed
-- **"Permission denied"**: You don't have the right permissions to execute the file
+- **"Permission denied"**: You don't have the right permissions to execute the file. You may need to ask the program creator to run `chmod`, or contact the system adminstrators for access to certain files.
 - **"No such file or directory"**: Check your spelling and current directory
 
 ## Further Reading
