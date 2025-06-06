@@ -1,3 +1,8 @@
+---
+title: AWS
+parent: Computational resources
+---
+
 # AWS
 
 [AWS at FH](https://sciwiki.fredhutch.org/scicomputing/store_objectstore/)

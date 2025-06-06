@@ -1,5 +1,5 @@
 ---
-title: Data Management
+title: Data management
 children: true
 ---
 

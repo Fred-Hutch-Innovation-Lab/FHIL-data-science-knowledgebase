@@ -1,3 +1,7 @@
+---
+title: BaseSpace
+parent: Data management
+---
 
 # Principles
 
