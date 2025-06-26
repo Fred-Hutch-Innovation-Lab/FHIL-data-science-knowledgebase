@@ -1,7 +1,7 @@
 ---
 title: Best practices in programming
 children: false
-parent: Computational-resources
+parent: Computational resources
 last_modified_date: 2024-06-06
 ---
 
@@ -25,15 +25,15 @@ Enforcing consistent data forms will make computational resources more utilizabl
 
 ### Nextflow
 
-I created a fred-hutch specific nf-core profile that should allow easier use of nf-core pipelines on Fred Hutch HPC. 
-[See readme for details.](https://github.com/nf-core/configs/blob/master/docs/fred_hutch.md)
-
+- [nf-core fred-hutch profile](https://github.com/nf-core/configs/blob/master/docs/fred_hutch.md): fred-hutch specific nf-core profile that should allow easier use of nf-core pipelines on Fred Hutch HPC 
+- [nf-core](https://nf-co.re/docs/): Writing modules and workflows in compliance with nf-core guidelines allows for easier interpolation between users
 - [Nextflow patterns](https://nextflow-io.github.io/patterns/): Examples of common workflows in NF
 - [nf-test](https://www.nf-test.com/): Testing workflow recommended by nf-core
 - [Seqera AI](https://seqera.io/ask-ai/chat): Decent chatbot for NF 
 
 ### R
 
+- [here](https://here.r-lib.org/): Better path resolution in R projects
 - [R for Data Science](https://r4ds.hadley.nz/): Good detail of all fundamentals.
 - [Tidy models](https://www.tidymodels.org/start/models/) A standardized approach to modeling in R
 

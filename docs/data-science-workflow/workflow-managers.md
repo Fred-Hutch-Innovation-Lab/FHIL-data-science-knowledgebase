@@ -27,7 +27,7 @@ nextflow run ./main.nf -c nextflow.config --profile [local,slurm]
 
 ### Nf-core
 
-Nf-core is an open-source community repository of bioinformatic workflows written in nextflow. There are many modules, subworkflows, and full workflows for many types of bioinformatic experiments. Before creating a nextflow workflow from scratch, you should see if you can leverage existing code, or find a workflow that does what you need. 
+Nf-core is an open-source community repository of bioinformatic workflows written in nextflow. There are many modules, subworkflows, and full workflows for many types of bioinformatic experiments. Before creating a nextflow workflow from scratch, you should see if you can leverage existing code, or find a workflow that does what you need. There is also an institutional profile available for Fred Hutch to run nf-core workflows on Rhino. See [here](https://github.com/nf-core/configs/blob/master/docs/fred_hutch.md) for more details.
 
 # Resources
 

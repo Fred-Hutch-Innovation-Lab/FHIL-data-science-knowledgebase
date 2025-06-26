@@ -98,7 +98,8 @@ Depending on the analysis, you may not need to access the raw data anymore, but 
 # 5. Publication
 
 1. Submit raw data through the Gene Expression Omnibus(GEO) or Sequence Read Archive (SRA).
-2. (Optional) submit processed data (e.g. counts matrices) through GEO. This is preferred but not strictly necessary for most publications. 
+    - See [data publication](/data-management/data-publication.md)
+2. (Optional) submit processed data (e.g. counts matrices) through GEO or Zenodo. This is preferred but not strictly necessary for most publications. 
 3. Publicize the Git repo used for analysis. 
 4. Remove local/fast drive copies of raw and processed data.
 

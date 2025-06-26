@@ -36,7 +36,6 @@ Version control is essential for tracking changes, collaborating with others, an
 
 ### Data/research compendia
 
-
 ## Reproducibility
 
 **Reproducibility** determines how reliable your results are. If it can't be reproduced, it isn't real. Container systems like Docker and Apptainer help manage system level consistency such as system libraries, operating systems, and language versions. Programming-language-specific dependency managers like Renv (R) and UV or poetry (Python) record versions. Random seed control ensure non-deterministic processes will output the same results when reran. 
