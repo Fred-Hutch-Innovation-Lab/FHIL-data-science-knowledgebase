@@ -1,5 +1,5 @@
 ---
-title: BaseSpace
+title: File naming
 parent: Data management
 ---
 
