@@ -1,3 +1,10 @@
+---
+title: Cell cycle regression
+children: false
+parent: Single-cell
+last_modified_date: 2024-06-26
+---
+
 ## Cell cycle regression
 
 Cells at different stages of growth can exhibit unique expression profiles. For some studies, detecting signal between cells of different stages in not interesting and can confound or obscure results of interest. A set of cell-cycle marker genes can be used to approximate growth stage and regress expression data to ignore variance due to cell cycle.

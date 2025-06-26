@@ -1,3 +1,10 @@
+---
+title: Doublet removal
+children: false
+parent: Single-cell
+last_modified_date: 2024-06-26
+---
+
 ## Doublet Removal
 
 Most single-cell technologies are imperfect at isolating a single-cells. 

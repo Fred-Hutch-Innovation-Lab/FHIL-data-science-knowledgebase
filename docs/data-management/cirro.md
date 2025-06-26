@@ -8,3 +8,53 @@ Cirro is a cloud platform for data storage and processing created and spun out b
 See the [Cirro documentation] for more details
 
 [Cirro documentation]:https://docs.cirro.bio/
+
+# Command line interface using FH servers
+
+This method takes advantage of FH's high-performance compute resources for faster, more reliable data transfers.
+
+## Step 1: log into FH HPC "rhino"
+
+**On Windows**:
+*Todo*
+    
+**On Mac**:
+* Open a terminal
+* type `ssh <username>@rhino`, where `<username>` is your Fred Hutch user ID, e.g. `aelz@rhino`
+   * You can specify a rhino login node in the form `rhino01`, `rhino02`, or `rhino03` if you are trying to check a screen sesion (see Step 3) 
+* Enter your FH password (the terminal may not show that you're typing)
+
+## Step 2: load Cirro module
+
+On the command line, enter `module load cirro`. This will load the most recent version of cirro installed on the server. If you need to find other versions for any reason, you can run `module spider cirro` to see all available versions.
+
+## Step 3 (optional, for large uploads): connect to a screen session
+
+To avoid broken pipes if your computer loses connection to the server, you can open a screen session. This will ensure your command will continue running even if you are not actively logged in.
+
+To do so, run `screen` on the command line. This will give some license info which you can hit space or return to close.
+
+From there, run your commands as normal. If you later need to reconnect to a screen session to check the progress of your upload or resume an interrupted interactive session, you can run `screen -r`. If you have more than one
+screen session running, you will be shown a list of active sessions. You can copy the ID of the relevant session and run `screen -r <session_ID>` to connect. Note that you will need to be connected to the same server node that
+the screen was originally launched from. If you ran screen/cirro from a login node, you will need to be on the same one (01, 02, or 03). See the login details in Step 1.
+
+To exit the screen session after completing a command, simply enter `exit`.
+
+## Step 4: Run the interactive cirro upload prompt
+
+Have the path to your files of interest ready. Note that file paths on the server may be different than mounted paths on Mac. There will be no 'Volumes' prefix. If your data is stored in the fast drive, the path may look something like
+`/fh/fast/_IRC/FHIL/grp/NextSeq_SteamPlant/<Seq_run>`
+
+Run `cirro upload -i` and follow the interactive prompts. The steps should be self explanatory, and you can navagate options with arrow keys and the enter key. Leave the connection open (or use a screen session, see Step 3) and wait
+for all uploads to finish. You should see the message `[Cirro CLI] File content validated by MD5` once your uploads are completed.
+
+If this is your first time using the interactive prompts, you will have some additional tasks for first time setup and login. These will be cached for future runs. 
+* Specify the fred hutch server `fredhutch.cirro.bio`
+* Save your login info
+* Select the `MD5 (default)` file validation method
+* Copy the URL to your browser
+* Login with FH credentials
+
+# Troubleshooting
+
+For more help, email `support@cirro.bio.`

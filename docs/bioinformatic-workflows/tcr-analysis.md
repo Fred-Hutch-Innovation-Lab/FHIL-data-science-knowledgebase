@@ -14,9 +14,9 @@ shotgun and RNA-Seq libraries, various single cell technologies and is flexible 
 
 ## Data preparation
 
-Table from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9369427/
-<img width="993" alt="image" src="https://github.com/user-attachments/assets/d5948016-4b33-4ba6-992d-bb9076ce6e18">
-
+![TCR Diagram](/assets/tcr1.png)
+![TCR Diagram](/assets/tcr2.png)
+Images from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9369427/
 
 ## Processing
 
@@ -154,7 +154,7 @@ V(D)J segment use; nucleotide insertions and deletions; CDR lengths; and amino a
 
 ## Terms
 
-**Clonal evenness**: Distribution of TCR to see if there is clonal expansion
-**Clonal richness**: Measurement of the number of clones with unique TCRs
-**Clonal diversity**: Distribution of TCR, taking into account both evenness and richness
-**TCR convergence**: Different clones with the same TCR due to degeneracy of codons
+- **Clonal evenness**: Distribution of TCR to see if there is clonal expansion
+- **Clonal richness**: Measurement of the number of clones with unique TCRs
+- **Clonal diversity**: Distribution of TCR, taking into account both evenness and richness
+- **TCR convergence**: Different clones with the same TCR due to degeneracy of codons

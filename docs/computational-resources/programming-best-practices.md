@@ -25,6 +25,8 @@ Enforcing consistent data forms will make computational resources more utilizabl
 
 ### Nextflow
 
+I created a fred-hutch specific nf-core profile that should allow easier use of nf-core pipelines on Fred Hutch HPC. 
+[See readme for details.](https://github.com/nf-core/configs/blob/master/docs/fred_hutch.md)
 
 - [Nextflow patterns](https://nextflow-io.github.io/patterns/): Examples of common workflows in NF
 - [nf-test](https://www.nf-test.com/): Testing workflow recommended by nf-core
