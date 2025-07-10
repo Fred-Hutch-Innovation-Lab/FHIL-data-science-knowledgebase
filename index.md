@@ -12,19 +12,22 @@ This is a record of standard operating procedures (SOPs) for the Innovation Lab 
 
 There is already a wealth of knowledge available online and through FH resources. This site is meant to be a central hub pointing you to other resources, outlining FHIL specific workflows, and bridging the gaps where necessary. 
 
+## Onboarding
+
+- Join the [github team for FHIL](https://github.com/Fred-Hutch-Innovation-Lab)
+    - This will give you access to template repos and code developed for FHIL workflows
+- Get access to Fred Hutch's HPC via the [Sci-comp self-service portal](https://scicomp-self-service.fredhutch.org/)
+
 ## Other resources
 
+- [Centernet](https://centernet.fredhutch.org/) Many resources and annoncements for the institution. See courses, events/talks on the calendar, HR resources, etc. 
 - [FH Sciwiki](https://sciwiki.fredhutch.org/) has much more thorough discussions of many topics included here. This should be your first stop for questions.
+- Use [Workday](https://wd5.myworkday.com/wday/authgwy/fhscca/login.htmld?returnTo=%2ffhscca%2fd%2fhome.htmld) to enter PTO requests. Use the Fred-hutch login
 - [FH DataScience slack](https://join.slack.com/t/fhdata/signup) the link may expire over time, see the footer of the Sciwiki for an active link (hopefully).
 - [Data Science Lab (DaSL)](https://hutchdatascience.org) Workshops, courses, house calls, and lots of other resources for community-oriented data science at FH. 
     - [Weekly newsletter](https://fhdata.substack.com/) Not always active, but can have cool resources
 - [Openscapes](https://ocdo.fredhutch.org/programs/openscapes.html) An open-science intitiative with short cohorts of FH people. A great place to connect with other computational people at FH and learn about best practices in computational research. 
 - [WILDS](https://getwilds.org/) Open source software developed at FH. 
-
-## General learning resources
-
-- [Data science in a box](https://datasciencebox.org/02-making-rigorous-conclusions#slides-videos-and-application-exercises) video lectures as an 'intro to data science'. Has some good introduction to modeling in R and basic stats. 
-- [Open intro](https://www.openintro.org/book/os/) Lots of textbooks for stats and math. 
 
 ## Site Information
 
