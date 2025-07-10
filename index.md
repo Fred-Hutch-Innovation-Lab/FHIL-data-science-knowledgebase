@@ -20,6 +20,8 @@ There is already a wealth of knowledge available online and through FH resources
 
 ## Other resources
 
+![DaSL resource guide](assets/dasl_resources.png)
+
 - [Centernet](https://centernet.fredhutch.org/) Many resources and annoncements for the institution. See courses, events/talks on the calendar, HR resources, etc. 
 - [FH Sciwiki](https://sciwiki.fredhutch.org/) has much more thorough discussions of many topics included here. This should be your first stop for questions.
 - Use [Workday](https://wd5.myworkday.com/wday/authgwy/fhscca/login.htmld?returnTo=%2ffhscca%2fd%2fhome.htmld) to enter PTO requests. Use the Fred-hutch login
