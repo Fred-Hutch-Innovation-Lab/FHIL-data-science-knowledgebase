@@ -2,15 +2,18 @@
 title: Home
 layout: home
 nav_order: 1
-last_modified_date: 2024-06-06
+last_modified_date: 2025-08-12
 permalink: /
 ---
 
-# FHIL Standard Operating Procedures
+# FHIL Data Science knowledgebase
 
-This is a record of standard operating procedures (SOPs) for the Innovation Lab at Fred Hutch (FHIL). The SOPs are hosted at this GitHub repo and can be edited at any time to modify this site. It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub. 
+This is a record of standard operating procedures (SOPs), resources, and general knowledge for data science at the Innovation Lab at Fred Hutch (FHIL).
+The SOPs are hosted at this GitHub repo and can be edited at any time to modify this site. 
+It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub. 
 
-There is already a wealth of knowledge available online and through FH resources. This site is meant to be a central hub pointing you to other resources, outlining FHIL specific workflows, and bridging the gaps where necessary. 
+There is already a wealth of knowledge available online and through FH resources.
+This site is meant to be a central hub pointing you to other resources, outlining FHIL specific workflows, and bridging the gaps where necessary. 
 
 ## Onboarding
 
