@@ -1,5 +1,5 @@
 ---
-title: Single-cell
+title: single-cell
 children: true
 parent: Bioinformatic workflows
 ---
