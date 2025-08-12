@@ -9,7 +9,10 @@ permalink: /
 # FHIL Data Science knowledgebase
 
 This is a record of standard operating procedures (SOPs), resources, and general knowledge for data science at the Innovation Lab at Fred Hutch (FHIL).
-The SOPs are hosted at this GitHub repo and can be edited at any time to modify this site. 
+This repo should be living documentation that is updated with new information as we discover them, but should preserve concepts for posterity and include rationale for changing them. 
+Whenever possible, we should include links to papers, repos, vignettes, etc. that support a practice, and we should attempt to summarize the methods and justifications of a particular step.
+If we explore a procedure that we decide not to implement, it is worth including it too to avoid revisiting dead topics and save others from wasting time.
+The pages are hosted at this GitHub repo and can be edited at any time to modify this site. 
 It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub. 
 
 There is already a wealth of knowledge available online and through FH resources.
@@ -19,7 +22,9 @@ This site is meant to be a central hub pointing you to other resources, outlinin
 
 - Join the [github team for FHIL](https://github.com/Fred-Hutch-Innovation-Lab)
     - This will give you access to template repos and code developed for FHIL workflows
-- Get access to Fred Hutch's HPC via the [Sci-comp self-service portal](https://scicomp-self-service.fredhutch.org/)
+- [Get access to the HPC at FH)]({% link docs/computational_resources/high-performance-computing.md %})
+- Familiarize yourself with the [FHIL database]({% link docs/data-management/FHIL_database.md %})
+- Review the [data science workflow]({% link docs/data-science-workflow/inxed.md %}) for a general guide to day-to-day operations
 
 ## Other resources
 
