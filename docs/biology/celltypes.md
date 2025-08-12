@@ -7,7 +7,7 @@ These definitions reflect my understanding of common celltypes encountered in th
 
 
 ```json
-{{ site.data.myinfo | jsonify }}
+{{ site.data.celltype_DAG | jsonify }}
 ```
 
 <!-- ```yaml
