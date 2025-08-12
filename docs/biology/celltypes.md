@@ -19,7 +19,7 @@ Finding cannonical marker genes is harder than it should be given the concept. I
 
 [cellxgene's cell guide](https://cellxgene.cziscience.com/cellguide) uses it's database to calculate computational markers, and has a section for 'cannonical markers' from the [Human Reference Atlas](https://doi.org/10.1038/s41556-021-00788-6).
 
-<div style="overflow-x: auto; max-width: 100%; border: 1px solid #ccc; padding: 8px;">
+<div style="overflow-x: auto; max-width: 100%; overflow-y: auto; max-height: 300px; border: 1px solid #ccc; padding: 8px;">
   
 {% assign headers = site.data.celltype_markers[0] | keys %}
 
