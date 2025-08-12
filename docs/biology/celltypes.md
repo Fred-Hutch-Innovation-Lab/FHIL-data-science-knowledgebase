@@ -21,13 +21,10 @@ Finding cannonical marker genes is harder than it should be given the concept. I
 
 <div style="overflow-x: auto; max-width: 100%; overflow-y: auto; max-height: 300px; border: 1px solid #ccc; padding: 8px;">
   
-gene_symbol,aliases,expression_level,celltype,relative_to,tissue,species,condition,assay,confidence,date_added,references,notes
-
 | Gene symbol    | aliases | expression level | celltype | relative to (celltype) | tissue | species | condition | assay | confidence | date added | reference | notes |
-|---------|-----|------------|----|----|----|----|----|----|----|----|----|----|
+|---------|---------|------------------|----------|------------------------|--------|---------|-----------|-------|------------|------------|-----------|-------|
 {% for row in site.data.celltype_markers %}
 | {{ row.gene_symbol }} | {{ row.aliases }} | {{ row.expression_level }} | {{ row.celltype }} | {{ row['relative to (celltype)'] }} | {{ row.tissue }} | {{ row.species }} | {{ row.condition }} | {{ row.assay }} | {{ row.confidence }} | {{ row['date added'] }} | {{ row.reference }} | {{ row.notes }} |
 {% endfor %}
-
 
 </div>
