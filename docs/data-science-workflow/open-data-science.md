@@ -12,7 +12,7 @@ last_modified_date: 2024-06-06
 
 ## Openness
 
-**Open** science implies it can be seen by others. This usually means publishing code and data online. Github is used for code management, while Zenodo is useful for general digital storage.Gene Expression Omnibus or Sequence Read Archive are more domain specific resources for storing genomic/transcriptomic data for publications. If you intend to publish an analysis, you will likely have to make your data public through one of these resources.
+**Open** science implies it can be seen by others. This usually means publishing code and data online. Github is used for code management, while Zenodo is useful for general digital storage. Gene Expression Omnibus or Sequence Read Archive are more domain specific resources for storing genomic/transcriptomic data for publications. If you intend to publish an analysis, you will likely have to make your data public through one of these resources. See [data-publication]({% link docs/data-management/data-publication.md %})
 
 ## Accessibility
 

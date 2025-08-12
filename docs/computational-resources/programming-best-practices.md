@@ -7,6 +7,12 @@ last_modified_date: 2024-06-06
 
 # Best practices in programming
 
+## Reproducible compute environments
+
+Anaconda changed it's licensing for large institutions, making it less accessible. FH now has it's own mirror of some conda channels: https://conda-forge.fredhutch.org/
+
+Modules used on the HPC can be bundled as a container for publication purposes. I don't know the exact details of this, but consider asking scicomp if you used modules to process some data and want to publish the image with your findings.
+
 ## Notebooks and reports
 
 Notebooks such as quarto, jupyter, and R markdown allow interactive programming with nice GUIs to facilitate active analysis with data. They can be paired with static report rendering to produce deliverables.

@@ -4,7 +4,7 @@ title: Data science workflow
 
 # Data science workflow
 
-The data science workflow at FHIL consists of the following steps. I relate more common domain verbage to the 'ETL' language used more generally in data science. Much like the central dogma of biology, there will likely be devations from this as a linear workflow. This is simply to provide common language and understanding of how I conceive of my workflow. 
+The data science workflow at FHIL consists of the following steps. I relate more common domain verbage to the 'ETL' language used more generally in data science. There will likely be devations from this as a linear workflow. This is simply to provide common language and understanding of how I conceive of my workflow. 
 
 1. Retrieve ('Extract')
     - Data is pulled from it's raw output form from instruments, web servers, etc.  
