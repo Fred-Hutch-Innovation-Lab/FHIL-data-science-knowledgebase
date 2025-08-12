@@ -21,10 +21,27 @@ Finding cannonical marker genes is harder than it should be given the concept. I
 
 <div style="overflow-x: auto; max-width: 100%; overflow-y: auto; max-height: 300px; border: 1px solid #ccc; padding: 8px;">
   
-| Gene symbol    | aliases | expression level | celltype | relative to (celltype) | tissue | species | condition | assay | confidence | date added | reference | notes |
+<!-- | Gene symbol    | aliases | expression level | celltype | relative to (celltype) | tissue | species | condition | assay | confidence | date added | reference | notes |
 |---------|---------|------------------|----------|------------------------|--------|---------|-----------|-------|------------|------------|-----------|-------|
 {% for row in site.data.celltype_markers %}
 | {{ row.gene_symbol }} | {{ row.aliases }} | {{ row.expression_level }} | {{ row.celltype }} | {{ row['relative to (celltype)'] }} | {{ row.tissue }} | {{ row.species }} | {{ row.condition }} | {{ row.assay }} | {{ row.confidence }} | {{ row['date added'] }} | {{ row.reference }} | {{ row.notes }} |
-{% endfor %}
+{% endfor %} -->
+
+
+<table>
+  {% for row in site.data.celltype_markers %}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
 
 </div>
