@@ -24,6 +24,7 @@ This site is meant to be a central hub pointing you to other resources, outlinin
     - This will give you access to template repos and code developed for FHIL workflows
 - [Get access to the HPC at FH]({% link docs/computational-resources/high-performance-computing.md %})
 - Familiarize yourself with the [FHIL database]({% link docs/data-management/FHIL-database.md %})
+- Explore the [main directories]({% link docs/data-management/index.md %}) to get a feel for how things are stored
 - Review the [data science workflow]({% link docs/data-science-workflow/index.md %}) for a general guide to day-to-day operations
 
 ## Other resources

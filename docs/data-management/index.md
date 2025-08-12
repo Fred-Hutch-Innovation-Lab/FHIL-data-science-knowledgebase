@@ -5,6 +5,45 @@ children: true
 
 # Data Management
 
+## Data organization
+
+Most active data is stored on the `X://smb/fh/` drive under `fast` or `secure`. [See details for mounting the drives here](https://centernet.fredhutch.org/u/it/help-desk/mapping-network-drives/network-drive-paths-mac.html). Wet-lab folks tend to work more in `shared` for more human-utilized files, while larger computational files are stored in `fast`. In practice, I almost exclusively work in `fast`, occasionally outputting images or reports to `secure`. I think in theory there is slightly more cost associated with `fast`, but it hasn't been an issue.
+
+`X: smb://center/fh` 
+
+Key directories on the X drive are listed below. While there are many more than these, they are generally less actively used. I tried to organize things where I can, but people have different workflows, so you may work with other directories or see changes to this over time. 
+
+```
+fh
+└─ secure
+    | 
+    └─ newell_e   // Evan Newell lab folder, ocassionally used with collaborators
+    | 
+    └─ _IRC 
+        |
+        └─ grp   // main data science working directory
+            |
+            └─ analyses                        // main directory for active analyses
+            └─ bioinfo_tools                   // software for bioinformatics. E.g. cellranger
+            └─ inhouse_computational_resources // FHIL specific resources, such as the knowledgebase repo, template repo, etc. 
+            └─ NextSeq_SteamPlant              // Usual landing space for sequencing data
+            └─ Xenium_Rundata                  // General landing space for Xenium run data
+        └─ pub                                 // Apparently a public/shared dir, but I haven't used it
+        └─ user                                // Side projects etc. here
+|
+└─ fast
+    |
+    └─ _IRC
+        |
+        └─ FHIL
+            |
+            └─ Database                // meeting notes and efforts to standardize the sample database
+            └─ FHIL Proj_Figs          // Anna's preferred location for sharing figures / reports
+            └─ Lab Protocol Documents  // Wetlab SOPs including some data management details (naming files etc.)
+            └─ Lab Meetings            // Weekly standing meeting material. Put slideshows here
+
+```
+
 ## Types of data 
 
 Data can be thought of in these categories:
