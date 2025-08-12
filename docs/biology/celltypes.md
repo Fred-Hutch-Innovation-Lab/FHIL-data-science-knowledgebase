@@ -21,13 +21,11 @@ Finding cannonical marker genes is harder than it should be given the concept. I
 
 <div style="overflow-x: auto; max-width: 100%; overflow-y: auto; max-height: 300px; border: 1px solid #ccc; padding: 8px;">
   
-{% assign headers = site.data.celltype_markers[0] | keys %}
-
-| {% for h in headers %} {{ h }} |{% endfor %}
-|{% for h in headers %}---|{% endfor %}
-
-{% for row in site.data.celltype_markers %}
-| {% for h in headers %} {{ row[h] }} |{% endfor %}
+| Gene symbol    | aliases | expression level | celltype | relative to (celltype) | tissue | species | condition | assay | confidence | date added | reference | notes |
+|---------|-----|------------|----|----|----|----|----|----|----|----|----|----|
+{% for row in site.data.mytable %}
+| {{ row.Name }} | {{ row.Age }} | {{ row.Occupation }} |
 {% endfor %}
+
 
 </div>
