@@ -32,11 +32,11 @@ There is a more verbose workflow as a jupyter notebook (to be determined where t
 
 ## Marker genes
 
-Finding cannonical marker genes is harder than it should be given the concept. In reality there doesn't seem to be a de-facto set of 'cannonical' marker genes for most cells. Many publications use slightly different sets. It can be challenging to currate an accurate set, and inevitably someone will ask (what about gene ASDFSDAF). Your best bet is to spend a little time collecting literature for genes specific niche cells in your dataset, but mostly relying on larger atlas datasets for tried-and-true markers of common cells. A few resources to get you started:
+1. Aggregate cells into clusters
+2. Find differentially expressed genes between clusters
+3. Search for known celltype marker genes in top cluster markers
 
-[cellxgene's cell guide](https://cellxgene.cziscience.com/cellguide) uses it's database to calculate computational markers, and has a section for 'cannonical markers' from the [Human Reference Atlas](https://doi.org/10.1038/s41556-021-00788-6).
-
-[See the biology section]]({% link docs/biology/index.md %}) for more details on markers and celltypes.
+[See the biology section]]({% link docs/biology/celltypes.md %}) for more details on markers and celltypes.
 
 
 ## Further reading
