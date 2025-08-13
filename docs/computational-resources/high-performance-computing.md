@@ -44,6 +44,10 @@ jupyter lab --ip=$(hostname) --port=$(fhfreeport) --no-browser
 
 [Rstudio server launcher](https://rstudio-launcher.fredhutch.org/)
 
+Alternatively, see the workflow for creating a custom docker image to host rstudio server on the HPC. It allows more control over the system libraries (and server uptime cap).
+
+[Rstudio server images](https://github.com/Fred-Hutch-Innovation-Lab/general_workflows/tree/main/compute_environments/rocker-rstudio)
+
 # Further reading
 
 - [Fred Hutch cluster 101](https://hutchdatascience.org/FH_Cluster_101/)
