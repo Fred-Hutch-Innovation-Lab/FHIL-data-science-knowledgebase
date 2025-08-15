@@ -51,12 +51,14 @@ Containers allow you to package an application with all of its dependencies into
 - [Docker Documentation](https://docs.docker.com/)
 - [Dockerfile Best Practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 - [Docker Security Best Practices](https://docs.docker.com/engine/security/)
+- [Apptainer at FH wiki](https://sciwiki.fredhutch.org/compdemos/Apptainer/)
 
-#### Apptainer
+#### FHIL Compute Environment Launchers
 
-Apptainer (formerly Singularity) is a docker-like solution for shared computing environments (such as high-performance computing clusters). When working with Rhino/Gizmo/Slurm, you will need to use Apptainer instead of docker to skirt permissions issues. See the [wiki](https://sciwiki.fredhutch.org/compdemos/Apptainer/) for more info.
+THere are streamlined launchers for interactive compute environments in Jupyter and Rstudio in the FHIL github repo. These launchers eliminate the need to manually manage containers, ports, and networking, making it easier for researchers to focus on their analysis rather than infrastructure setup.
 
-- [Apptainer Documentation](https://apptainer.org/docs/)
+- [JupyterLab](https://github.com/Fred-Hutch-Innovation-Lab/jupyter-lab-launcher)
+- [Rstudio](https://github.com/Fred-Hutch-Innovation-Lab/rstudio-server-launcher)
 
 ### Dependency management
 

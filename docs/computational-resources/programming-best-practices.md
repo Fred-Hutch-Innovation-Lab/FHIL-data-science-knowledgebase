@@ -7,25 +7,17 @@ last_modified_date: 2024-06-06
 
 # Best practices in programming
 
+This document records best practices and useful tools for various programming langauges.
+
 ## Reproducible compute environments
 
 Anaconda changed it's licensing for large institutions, making it less accessible. FH now has it's own mirror of some conda channels: https://conda-forge.fredhutch.org/
 
 Modules used on the HPC can be bundled as a container for publication purposes. I don't know the exact details of this, but consider asking scicomp if you used modules to process some data and want to publish the image with your findings.
 
-## Notebooks and reports
+## HTML reports
 
-Notebooks such as quarto, jupyter, and R markdown allow interactive programming with nice GUIs to facilitate active analysis with data. They can be paired with static report rendering to produce deliverables.
-
-- [Quarto](https://quarto.org/) A notebook solution that supports multiple languages. This seems to be the replacement for R markdown moving forward, as it is developed by Posit. 
-- [Jupyter Book](https://jupyterbook.org/en/stable/intro.html) Seems to be a python-ic approach to the RMD style
-- [R markdown](https://rmarkdown.rstudio.com/) 
-
-## Data validation
-
-Enforcing consistent data forms will make computational resources more utilizable and robust.
-
-[Pointblank: Data validation in R](https://github.com/rstudio/pointblank)
+TODO: details about quarto and RMD html report generation.
 
 ## Language-specific
 
