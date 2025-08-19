@@ -1,11 +1,11 @@
-title: FHIL SOPs
+title: FHIL Knowledgebase
 description: Standard operating procedures for the Fred Hutch Innovation Lab
 theme: just-the-docs
 
-url: https://Fred-Hutch-Innovation-Lab.github.io/SOPs
+url: https://Fred-Hutch-Innovation-Lab.github.io/FHIL-data-science-knowledgebase
 
 aux_links:
-  Source repo: https://github.com/Fred-Hutch-Innovation-Lab/SOPs
+  Source repo: https://github.com/Fred-Hutch-Innovation-Lab/FHIL-data-science-knowledgebase
 
 # Default settings for all pages in doc folder
 defaults:
