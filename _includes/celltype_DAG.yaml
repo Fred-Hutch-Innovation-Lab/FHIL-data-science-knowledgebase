@@ -5,111 +5,178 @@
 ## primary name here, try to update it across other reference documents and databases too. 
 ## Aliases are there for reference when external colaborators use different nomenclature.
 ## Always use singular case (lymphocyte, not lymphocytes)
-name: Blood cells
-HSPC:
-  aliases: Hematopoietic stem and progenitor cell
-  Leukocyte:
-    PBMC:
-      aliases: Agranulocytes
-      Lymphocyte:
-        T:
-          CD4+ T:
-            CD4+ cytotoxic T:
-            CD4+ proliferating:
-            Treg:
-              aliases: T-regulatory
-              Naive regulatory T:
-              Memory regulatory T:
-            TH1:
-            TH2:
-            TFH:
-              aliases: T follicular helper
-            CD4+ ISG-rich T:
-            CD4+ naive T:
-            CD4+ memory T:
-              CD4+ effector memory T:
-              CD4+ central memory T:
-              CD4+ transitional memory T:
-          CD8+ T:
-            CD8+ naive T:
-            CD8+ proliferating T:
-            CD8+ memory T:
-              CD8+ central memory:
-                aliases: [CM, TCM]
-              CD8+ effector memory T:
-                aliases: [EM, TEM]
-                TEMRA:
-                  aliases: effector memory cells re-expressing CD45RA
-              CD8+ transitional memory +:
-            CD8+ ISG-rich:
-          MAIT:
-            aliases: Mucosal associated invariant T
-          gamma-delta T:  
-          dNT:
-            aliases: Double negative T
-          NKT:
-            aliases: Natural killer T
-          Mature T:
-            aliases: 
-        ASC:
-          aliases: Antibody secreting cells
-          B:
-            B memory:
-              B non-switched memory:
-              B switched memory:
-              B T-bet+ memory:
-            B germinal center:
-            B naive:
-              aliases: [Follicular B, FoB, B-2]
-            B transitional:
-            B ISG-rich:
-            B mature:
-          Plasmablast:
-          Plasma cell:
-        ILC:
-          aliases: Innate lymphoid
-        NK:
-          aliases: Natural killer
-          NK CD56bright:
-          NK CD56dim:
-          NK adaptive:
-          NK proliferating:
-      Myeloid:
-        aliases: CMP, Common myeloid progenitor
-        Macrophage:
-          M1:
-          M2:
-        Monocyte:
-          Classical monocyte:
-            aliases: [CD14+ CD16-, FCGR3A- CD14+]
-          Intermediate monocyte:
-            aliases: [CD14+ CD16+, FCGR3A+ CD14+]
-          Non-classical monocyte:
-            aliases: [CD14dim CD16+, FCGR3A+ CD14-, CD14- CD16+]
-        Dendritic:
-          aliases: DC
-          mregDC:
-            aliases: [activated denritic, migratory denritic]
-          mDC:
-            aliases: [myeloid dendritic, classical dendritic]
-            cDC1:
-              aliases: [DC1, conventional Dendritic Cell 1]
-            cDC2:
-              aliases: [DC2, conventional Dendritic Cell 2]
-          pDC:
-            aliases: plasmacytoid DC
-          ASDC:
-            aliases: AXL+ Dendritic cell
-      Granulocyte:
-        aliases: polymorphonuclear cell, PMN
-        Mast:
-        Basophil:
-        Eosinophil:
-          aliases: acidophils
-        Neutrophil:
-    Megakaryocyte:
-    Erythrocyte:
-Other PBMC:
+Leukocyte:
+  PBMC:
+    aliases: Agranulocytes
+    Lymphocyte:
+      T:
+        CD4+ T:
+          CD4+ cytotoxic T:
+          CD4+ proliferating:
+          Treg:
+            aliases: T-regulatory
+            Naive regulatory T:
+            Memory regulatory T:
+          TH1:
+          TH2:
+          TFH:
+            aliases: T follicular helper
+          CD4+ ISG-rich T:
+          CD4+ naive T:
+          CD4+ memory T:
+            CD4+ effector memory T:
+            CD4+ central memory T:
+            CD4+ transitional memory T:
+        CD8+ T:
+          CD8+ naive T:
+          CD8+ proliferating T:
+          CD8+ memory T:
+            CD8+ central memory:
+              aliases: [CM, TCM]
+            CD8+ effector memory T:
+              aliases: [EM, TEM]
+              TEMRA:
+                aliases: effector memory cells re-expressing CD45RA
+            CD8+ transitional memory +:
+          CD8+ ISG-rich:
+        MAIT:
+          aliases: Mucosal associated invariant T
+        gamma-delta T:  
+        dNT:
+          aliases: Double negative T
+        NKT:
+          aliases: Natural killer T
+        Mature T:
+          aliases: 
+      ASC:
+        aliases: Antibody secreting cells
+        B:
+          B memory:
+            B non-switched memory:
+            B switched memory:
+            B T-bet+ memory:
+          B germinal center:
+          B naive:
+            aliases: [Follicular B, FoB, B-2]
+          B transitional:
+          B ISG-rich:
+          B mature:
+          Plasma:
+        Plasmablast:
+      ILC:
+        aliases: Innate lymphoid
+      NK:
+        aliases: Natural killer
+        NK CD56bright:
+        NK CD56dim:
+        NK adaptive:
+        NK proliferating:
+    Myeloid:
+      aliases: CMP, Common myeloid progenitor, innate immune cells
+      Macrophage:
+        M1:
+        M2:
+      Monocyte:
+        Classical monocyte:
+          aliases: [CD14+ CD16-, FCGR3A- CD14+]
+        Intermediate monocyte:
+          aliases: [CD14+ CD16+, FCGR3A+ CD14+]
+        Non-classical monocyte:
+          aliases: [CD14dim CD16+, FCGR3A+ CD14-, CD14- CD16+]
+      Dendritic:
+        aliases: DC
+        mregDC:
+          aliases: [activated denritic, migratory denritic]
+        mDC:
+          aliases: [myeloid dendritic, classical dendritic]
+          cDC1:
+            aliases: [DC1, conventional Dendritic Cell 1]
+          cDC2:
+            aliases: [DC2, conventional Dendritic Cell 2]
+        pDC:
+          aliases: plasmacytoid DC
+        ASDC:
+          aliases: AXL+ Dendritic cell
+  Granulocyte:
+    aliases: polymorphonuclear cell, PMN
+    Mast:
+    Basophil:
+    Eosinophil:
+      aliases: acidophils
+    Neutrophil:
+  Megakaryocyte:
+  Erythrocyte:
   Platelet:
   Proliferating:
+HSPC:
+  aliases: Hematopoietic stem and progenitor cell, 
+  Leukocyte:
+    Megakaryocyte:
+    Erythrocyte:
+    Platelet:
+    Proliferating:
+kidney:
+  sources: [https://doi.org/10.1038/s41597-019-0351-8,https://doi.org/10.1038/s41597-023-02209-9,https://doi.org/10.1146/annurev-physiol-052521-121841]
+  epithelial:
+    aliases: nephron
+    glomerular:
+      glomerular endothelium:
+      parietal epithelial:
+      podocytes:
+        adult podocytes:
+        podocyte progenitors:
+    tubular:
+      proximal tubule:
+        aliases: PT
+        pan-PT:
+        proximal convoluted tubule:
+        proximal straight tubule:
+        PT progenitors:
+        injured PT:
+      loop of Henle:
+        aliases: [LOH]
+        descending thin limb of LOH:
+          aliases: DTL
+        ascending thin limb of LOH:
+          aliases: ATL
+        thick ascending limb of LOH:
+          aliases: TAL
+      collecting duct:
+        aliases: [CD]
+        CD-principal:
+          aliases: CD-PC
+        Pan-CD-intercalated:
+        CD-intercalated:
+          aliases: CD-IC
+          CD-intercalated (type A):
+          CD-intercalated (type B):
+        CD-transitional:
+          aliases: CD-Trans
+      distal convoluted tuble:
+        aliases: [DCT, distal contourned tubule]
+        DCT1:
+        DCT2:
+    macula densa:
+      aliases: [MD]
+    connecting tubule:
+      aliases: CNT
+  perivascular:
+    aliases: [stromal, interstitium]
+    mesangial:
+      aliases: mesangium
+    pericytes:
+    smooth muscle:
+      aliases: SMCs
+    juxtaglomerular:
+      aliases: JGs
+    endothelium:
+      capillaries:
+      arterioles and arteries:
+      vas afferens:
+      vas efferens:
+      pertibular capillaries:
+      veins and venules:
+      ascending vasa recta:
+      descending vasa recta:
+
 ...
