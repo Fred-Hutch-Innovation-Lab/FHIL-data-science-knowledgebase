@@ -15,7 +15,7 @@ Key directories on the X drive are listed below. While there are many more than 
 
 ```
 fh
-└─ secure
+└─ fast
     | 
     └─ newell_e   // Evan Newell lab folder, ocassionally used with collaborators
     | 
@@ -31,7 +31,7 @@ fh
         └─ pub                                 // Apparently a public/shared dir, but I haven't used it
         └─ user                                // Side projects etc. here
 |
-└─ fast
+└─ secure
     |
     └─ _IRC
         |
